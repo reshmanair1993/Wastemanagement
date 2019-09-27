@@ -1,0 +1,93 @@
+<?php
+namespace api\modules\v1\controllers;
+use yii\rest\ActiveController;
+use yii\data\ActiveDataProvider;
+use  api\modules\v1\models\Payment;
+use  api\modules\v1\models\Lsgi;
+use  api\modules\v1\models\Image;
+use yii\filters\VerbFilter;
+use yii\filters\auth\HttpBearerAuth;
+use yii\web\UploadedFile;
+use Yii;
+
+class InvoiceController extends ActiveController
+{
+     public $modelClass = '\api\modules\v1\models\Payments';
+
+     public function actions() {
+             $actions = parent::actions();
+             $unsetActions = ['create','update','delete','index'];
+             foreach($unsetActions as $action) {
+               unset($actions[$action]);
+             }
+
+             return $actions;
+     }
+	 public function behaviors()
+    {
+        return [
+            'verbs' => [
+                'class' => VerbFilter::className(),
+                'actions' => [
+                    'delete' => ['POST'],
+                ],
+            ],
+            'auth' => [
+                'class' => HttpBearerAuth::className(),
+            ]
+        ];
+    }
+      public function actionIndex($payment_id){
+        $ret =[];
+        if(!$payment_id)
+        {
+            $msg = ['Payment id is mandatory'];
+            $error = ['payment_id'=>$msg];
+            $ret = ['errors' =>$error];
+            return $ret; 
+        }
+        $modelPayment = Payment::find()->where(['id'=>$payment_id])->andWhere(['status'=>1])->one();
+
+        if($modelPayment)
+        {
+            $imageNew = null;
+            $image = null;
+             // print_r($modelPayment->fkPaymentRequest->fkServiceRequest);die();
+            if(isset($modelPayment->fkPaymentRequest->fkServiceRequest->fkLsgi))
+            {
+                $modelLsgi = $modelPayment->fkPaymentRequest->fkServiceRequest->fkLsgi;
+                if($modelLsgi->header_image_id)
+                    {
+                   
+                  $modelImage = $modelLsgi->fkImageHeader;
+                  if($modelImage)
+                $image = $modelImage->uri_full;  
+                }
+                if($modelLsgi->footer_image_id)
+                    {
+                  $modelImage1 = $modelLsgi->fkImageFooter;
+                  if($modelImage1)
+                $imageNew = $modelImage1->uri_full;  
+                }
+            }
+            $ret = [
+            'header_image'=>$image,
+            'footer_image'=>$imageNew,
+            'data'=>[[
+                'payable'=>isset($modelPayment->fkPaymentRequest->fkServiceRequest->fkService->name)?$modelPayment->fkPaymentRequest->fkServiceRequest->fkService->name:null,
+                'amount'=>$modelPayment->amount,
+            ],],
+            ];
+
+            return $ret ;
+        }
+        else
+        {
+           $msg = ['Payment id is invalid'];
+            $error = ['payment_id'=>$msg];
+            $ret = ['errors' =>$error];
+            return $ret; 
+        }
+   }
+      
+}
