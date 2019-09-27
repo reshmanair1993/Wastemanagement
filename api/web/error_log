@@ -1,0 +1,203 @@
+[27-Jun-2017 10:50:14 Asia/kolkata] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/trackflyapp/public_html/eswar/api/modules/v1/controllers/UsersController.php on line 43
+[16-Sep-2017 05:47:24 Etc/GMT] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/models/LoginForm.php on line 109
+[18-Sep-2017 05:34:16 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[18-Sep-2017 05:37:53 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[18-Sep-2017 05:41:47 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[18-Sep-2017 05:48:55 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[18-Sep-2017 05:53:17 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[18-Sep-2017 05:54:16 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[19-Sep-2017 07:45:36 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[19-Sep-2017 07:46:39 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[19-Sep-2017 07:47:41 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[19-Sep-2017 07:49:17 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[19-Sep-2017 07:51:25 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[19-Sep-2017 07:51:56 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[19-Sep-2017 07:52:20 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[20-Sep-2017 20:40:19 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[20-Sep-2017 20:47:06 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[21-Sep-2017 05:35:25 Etc/GMT] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/UsersController.php on line 535
+[21-Sep-2017 08:14:27 Etc/GMT] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/models/Device.php on line 252
+[21-Sep-2017 08:15:00 Etc/GMT] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/models/Device.php on line 252
+[21-Sep-2017 08:30:38 Etc/GMT] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/models/Device.php on line 253
+[21-Sep-2017 08:31:06 Etc/GMT] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/models/Device.php on line 253
+[21-Sep-2017 09:23:24 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[21-Sep-2017 11:31:54 Etc/GMT] PHP Parse error:  syntax error, unexpected 'where' (T_STRING) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/DevicesController.php on line 164
+[21-Sep-2017 11:41:38 Etc/GMT] PHP Parse error:  syntax error, unexpected 'where' (T_STRING) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/DevicesController.php on line 165
+[21-Sep-2017 11:41:45 Etc/GMT] PHP Parse error:  syntax error, unexpected 'where' (T_STRING) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/DevicesController.php on line 165
+[21-Sep-2017 11:41:53 Etc/GMT] PHP Parse error:  syntax error, unexpected 'where' (T_STRING) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/DevicesController.php on line 165
+[21-Sep-2017 11:42:08 Etc/GMT] PHP Parse error:  syntax error, unexpected 'where' (T_STRING) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/DevicesController.php on line 165
+[21-Sep-2017 11:42:15 Etc/GMT] PHP Parse error:  syntax error, unexpected 'where' (T_STRING) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/DevicesController.php on line 165
+[21-Sep-2017 11:46:51 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[21-Sep-2017 11:47:24 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[21-Sep-2017 11:48:01 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[21-Sep-2017 12:19:07 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[25-Sep-2017 04:13:36 Etc/GMT] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 72 bytes) in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 116
+[27-Sep-2017 06:00:50 Etc/GMT] PHP Fatal error:  Cannot use object of type yii\web\UploadedFile as array in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/UsersController.php on line 168
+[27-Sep-2017 06:01:04 Etc/GMT] PHP Fatal error:  Cannot use object of type yii\web\UploadedFile as array in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/UsersController.php on line 168
+[27-Sep-2017 06:01:15 Etc/GMT] PHP Fatal error:  Cannot use object of type yii\web\UploadedFile as array in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/UsersController.php on line 168
+[27-Sep-2017 06:12:08 Etc/GMT] PHP Fatal error:  Cannot use object of type yii\web\UploadedFile as array in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/UsersController.php on line 168
+[27-Sep-2017 06:18:53 Etc/GMT] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/UsersController.php on line 173
+[27-Sep-2017 06:55:45 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/UsersController.php on line 197
+[28-Sep-2017 14:17:57 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[28-Sep-2017 14:23:00 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[28-Sep-2017 14:31:23 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[28-Sep-2017 14:33:14 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[28-Sep-2017 14:33:17 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[28-Sep-2017 14:35:37 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[28-Sep-2017 14:40:14 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[28-Sep-2017 14:40:46 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[28-Sep-2017 14:40:50 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[28-Sep-2017 14:46:40 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[28-Sep-2017 14:48:55 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[28-Sep-2017 14:49:11 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[28-Sep-2017 14:49:27 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[28-Sep-2017 14:49:29 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[28-Sep-2017 14:50:00 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[28-Sep-2017 14:50:02 UTC] PHP Fatal error:  Call to a member function getFcmTokens() on a non-object in /home/cocoalabsco/public_html/greeniee-new/common/components/FirebaseComponent.php on line 156
+[04-Oct-2017 13:11:31 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/DevicesController.php on line 355
+[04-Oct-2017 13:24:28 Etc/GMT] PHP Warning:  Uncaught exception 'yii\base\ErrorException' with message 'Undefined variable: modelDevice' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/DevicesController.php:305
+Stack trace:
+#0 /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/DevicesController.php(305): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/cocoalabs...', 305, Array)
+#1 [internal function]: api\modules\v1\controllers\DevicesController->actionShareDevice('5', 'thanveer@Cocoal...')
+#2 /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('share-device', Array)
+#5 /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Mod in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/DevicesController.php on line 305
+[04-Oct-2017 13:24:28 Etc/GMT] PHP Fatal error:  Call to a member function setScenario() on a non-object in /home/cocoalabsco/public_html/greeniee-new/api/modules/v1/controllers/DevicesController.php on line 305
+[11-Oct-2017 11:42:03 Etc/GMT] PHP Warning:  file_put_contents(/home/cocoalabsco/public_html/greeniee-new/api/runtime/debug/59de038b71f38.data): failed to open stream: Disk quota exceeded in /home/cocoalabsco/public_html/greeniee-new/vendor/yiisoft/yii2-debug/LogTarget.php on line 57
+[03-Nov-2017 05:24:26 Etc/GMT] PHP Parse error:  syntax error, unexpected ',' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 59
+[03-Nov-2017 05:25:02 Etc/GMT] PHP Parse error:  syntax error, unexpected ',' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 59
+[03-Nov-2017 05:25:28 Etc/GMT] PHP Parse error:  syntax error, unexpected ',' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 59
+[03-Nov-2017 05:33:04 Etc/GMT] PHP Fatal error:  Cannot use [] for reading in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 59
+[03-Nov-2017 05:33:10 Etc/GMT] PHP Fatal error:  Cannot use [] for reading in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 59
+[03-Nov-2017 05:35:03 Etc/GMT] PHP Parse error:  syntax error, unexpected '$documents' (T_VARIABLE) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 62
+[03-Nov-2017 05:35:16 Etc/GMT] PHP Parse error:  syntax error, unexpected '$documents' (T_VARIABLE) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 62
+[03-Nov-2017 05:35:32 Etc/GMT] PHP Parse error:  syntax error, unexpected '$documents' (T_VARIABLE) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 62
+[03-Nov-2017 05:35:41 Etc/GMT] PHP Parse error:  syntax error, unexpected '$documents' (T_VARIABLE) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 62
+[03-Nov-2017 05:35:46 Etc/GMT] PHP Parse error:  syntax error, unexpected '$documents' (T_VARIABLE) in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 62
+[03-Nov-2017 05:37:43 Etc/GMT] PHP Parse error:  syntax error, unexpected '{', expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 65
+[03-Nov-2017 05:39:54 Etc/GMT] PHP Parse error:  syntax error, unexpected ':', expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 66
+[03-Nov-2017 05:44:20 Etc/GMT] PHP Parse error:  syntax error, unexpected ':', expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 66
+[03-Nov-2017 06:07:10 Etc/GMT] PHP Parse error:  syntax error, unexpected ',' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 63
+[03-Nov-2017 06:14:51 Etc/GMT] PHP Parse error:  syntax error, unexpected ''avatar'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 288
+[03-Nov-2017 06:19:45 Etc/GMT] PHP Parse error:  syntax error, unexpected 'response' (T_STRING), expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/config/main.php on line 217
+[03-Nov-2017 06:19:49 Etc/GMT] PHP Parse error:  syntax error, unexpected 'response' (T_STRING), expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/config/main.php on line 217
+[03-Nov-2017 06:19:56 Etc/GMT] PHP Parse error:  syntax error, unexpected 'response' (T_STRING), expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/config/main.php on line 217
+[03-Nov-2017 06:19:59 Etc/GMT] PHP Parse error:  syntax error, unexpected 'response' (T_STRING), expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/config/main.php on line 217
+[03-Nov-2017 06:21:18 Etc/GMT] PHP Parse error:  syntax error, unexpected ''avatar'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 300
+[03-Nov-2017 06:21:33 Etc/GMT] PHP Parse error:  syntax error, unexpected ''avatar'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 289
+[03-Nov-2017 06:21:43 Etc/GMT] PHP Parse error:  syntax error, unexpected ''avatar'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 288
+[03-Nov-2017 06:38:02 Etc/GMT] PHP Parse error:  syntax error, unexpected 'response' (T_STRING), expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/config/main.php on line 219
+[03-Nov-2017 06:38:06 Etc/GMT] PHP Parse error:  syntax error, unexpected 'response' (T_STRING), expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/config/main.php on line 219
+[03-Nov-2017 07:13:51 Etc/GMT] PHP Parse error:  syntax error, unexpected 'expiry' (T_STRING), expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 74
+[03-Nov-2017 07:14:05 Etc/GMT] PHP Parse error:  syntax error, unexpected 'expiry' (T_STRING), expecting ']' in /home/cocoalabsco/public_html/greeniee-new/api/modules/v2/controllers/VehiclesController.php on line 74
+[20-Mar-2018 06:55:40 Etc/GMT] PHP Fatal error:  Call to undefined method backend\models\Language::getLanguagesByCountry() in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/LanguageController.php on line 58
+[26-Mar-2018 06:21:07 Etc/GMT] PHP Fatal error:  Class 'backend\models\ContactEmergency' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/UsersController.php on line 308
+[28-Mar-2018 04:45:23 Etc/GMT] PHP Fatal error:  Class 'backend\models\District' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/DistrictController.php on line 61
+[28-Mar-2018 15:23:23 Etc/GMT] PHP Fatal error:  Call to a member function getEmergencyContacts() on null in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/UsersController.php on line 193
+[29-Mar-2018 01:07:46 Etc/GMT] PHP Fatal error:  Call to a member function getEmergencyContacts() on null in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/UsersController.php on line 194
+[29-Mar-2018 01:07:57 Etc/GMT] PHP Fatal error:  Call to a member function getEmergencyContacts() on null in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/UsersController.php on line 194
+[31-Mar-2018 04:19:17 Etc/GMT] PHP Fatal error:  Call to a member function getEmergencyContacts() on null in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/UsersController.php on line 192
+[02-Apr-2018 05:33:19 Etc/GMT] PHP Fatal error:  Call to a member function getEmergencyContacts() on null in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/UsersController.php on line 192
+[02-Apr-2018 05:34:11 Etc/GMT] PHP Fatal error:  Call to a member function getEmergencyContacts() on null in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/UsersController.php on line 192
+[02-Apr-2018 05:35:34 Etc/GMT] PHP Fatal error:  Call to a member function getEmergencyContacts() on null in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/UsersController.php on line 192
+[02-Apr-2018 05:35:57 Etc/GMT] PHP Fatal error:  Call to a member function getEmergencyContacts() on null in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/UsersController.php on line 192
+[03-Apr-2018 04:56:52 Etc/GMT] PHP Fatal error:  Call to a member function getEmergencyContacts() on null in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/UsersController.php on line 192
+[03-Apr-2018 04:57:32 Etc/GMT] PHP Fatal error:  Call to a member function getEmergencyContacts() on null in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/UsersController.php on line 192
+[03-Apr-2018 13:09:19 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\MenuCategory' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/GetMenuTranslationsController.php on line 61
+[03-Apr-2018 13:09:35 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Menu' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/GetMenuTranslationsController.php on line 62
+[03-Apr-2018 13:19:16 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\TranslationQuery' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Translation.php on line 77
+[07-Apr-2018 05:02:01 Etc/GMT] PHP Parse error:  syntax error, unexpected ''%20'' (T_CONSTANT_ENCAPSED_STRING) in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/DataController.php on line 120
+[09-Apr-2018 09:05:26 Etc/GMT] PHP Parse error:  syntax error, unexpected '=' in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/LanguageController.php on line 62
+[09-Apr-2018 09:06:40 Etc/GMT] PHP Fatal error:  Cannot redeclare class api\modules\v1\controllers\LanguageController in /home/freemaart/public_html/demo1/wb/backend/models/Language.php on line 80
+[09-Apr-2018 09:06:45 Etc/GMT] PHP Fatal error:  Cannot redeclare class api\modules\v1\controllers\LanguageController in /home/freemaart/public_html/demo1/wb/backend/models/Language.php on line 80
+[09-Apr-2018 09:07:26 Etc/GMT] PHP Fatal error:  Cannot redeclare class api\modules\v1\controllers\LanguageController in /home/freemaart/public_html/demo1/wb/backend/models/Language.php on line 80
+[09-Apr-2018 09:07:27 Etc/GMT] PHP Fatal error:  Cannot redeclare class api\modules\v1\controllers\LanguageController in /home/freemaart/public_html/demo1/wb/backend/models/Language.php on line 80
+[09-Apr-2018 09:15:10 Etc/GMT] PHP Fatal error:  Cannot redeclare class api\modules\v1\controllers\LanguageController in /home/freemaart/public_html/demo1/wb/backend/models/Language.php on line 80
+[09-Apr-2018 09:15:17 Etc/GMT] PHP Fatal error:  Cannot redeclare class api\modules\v1\controllers\LanguageController in /home/freemaart/public_html/demo1/wb/backend/models/Language.php on line 80
+[09-Apr-2018 09:15:19 Etc/GMT] PHP Fatal error:  Cannot redeclare class api\modules\v1\controllers\LanguageController in /home/freemaart/public_html/demo1/wb/backend/models/Language.php on line 80
+[09-Apr-2018 09:15:34 Etc/GMT] PHP Fatal error:  Cannot redeclare class api\modules\v1\controllers\LanguageController in /home/freemaart/public_html/demo1/wb/backend/models/Language.php on line 80
+[09-Apr-2018 09:16:21 Etc/GMT] PHP Fatal error:  Cannot redeclare class api\modules\v1\controllers\LanguageController in /home/freemaart/public_html/demo1/wb/backend/models/Language.php on line 80
+[09-Apr-2018 09:16:27 Etc/GMT] PHP Fatal error:  Cannot redeclare class api\modules\v1\controllers\LanguageController in /home/freemaart/public_html/demo1/wb/backend/models/Language.php on line 80
+[09-Apr-2018 09:17:00 Etc/GMT] PHP Fatal error:  Cannot redeclare class api\modules\v1\controllers\LanguageController in /home/freemaart/public_html/demo1/wb/backend/models/Language.php on line 80
+[09-Apr-2018 09:17:15 Etc/GMT] PHP Fatal error:  Cannot redeclare class api\modules\v1\controllers\LanguageController in /home/freemaart/public_html/demo1/wb/backend/models/Language.php on line 80
+[09-Apr-2018 09:17:20 Etc/GMT] PHP Fatal error:  Cannot redeclare class api\modules\v1\controllers\LanguageController in /home/freemaart/public_html/demo1/wb/backend/models/Language.php on line 80
+[20-Apr-2018 05:24:01 Etc/GMT] PHP Fatal error:  Call to a member function createCommand() on null in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/DataController.php on line 66
+[14-Jun-2018 16:44:31 Etc/GMT] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/freemaart/public_html/demo1/wb/backend/models/ContactEmergency.php on line 3
+[20-Jun-2018 11:44:29 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Faq' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/controllers/DataController.php on line 256
+[21-Jun-2018 04:15:56 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 04:43:10 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 04:43:13 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 05:19:16 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 05:19:59 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 05:20:40 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 05:20:44 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 05:21:04 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 05:22:40 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 05:23:29 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 05:23:44 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 06:07:44 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 06:08:10 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 06:08:15 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 06:08:17 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 06:08:21 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 15:00:29 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 15:00:31 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[21-Jun-2018 15:00:34 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[22-Jun-2018 05:15:10 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[22-Jun-2018 05:15:19 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[22-Jun-2018 05:21:15 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[22-Jun-2018 08:06:21 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[22-Jun-2018 16:06:43 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[23-Jun-2018 04:02:06 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[23-Jun-2018 11:42:33 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[23-Jun-2018 11:42:42 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[23-Jun-2018 11:42:46 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[23-Jun-2018 11:42:49 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[23-Jun-2018 11:43:13 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[23-Jun-2018 11:43:43 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[08-Jul-2018 02:29:16 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[08-Jul-2018 02:37:24 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[12-Jul-2018 11:21:23 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[16-Jul-2018 10:15:08 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[18-Jul-2018 11:23:42 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[19-Jul-2018 10:08:54 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[19-Jul-2018 10:18:51 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Image' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 43
+[19-Jul-2018 10:23:22 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\WordCategory' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 44
+[19-Jul-2018 10:23:24 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\WordCategory' not found in /home/freemaart/public_html/demo1/wb/api/modules/v1/models/Word.php on line 44
+[21-Jul-2018 12:20:27 Etc/GMT] PHP Warning:  file_put_contents(/home/freemaart/public_html/demo1/wb/api/runtime/debug/5b53250bd28e1.data): failed to open stream: Disk quota exceeded in /home/freemaart/public_html/demo1/wb/vendor/yiisoft/yii2-debug/LogTarget.php on line 57
+[25-Jul-2018 10:17:42 Etc/GMT] PHP Warning:  file_put_contents(/home/freemaart/public_html/demo1/wb/api/runtime/debug/5b584e46b1d9a.data): failed to open stream: Disk quota exceeded in /home/freemaart/public_html/demo1/wb/vendor/yiisoft/yii2-debug/LogTarget.php on line 57
+[27-Jul-2018 06:58:50 Etc/GMT] PHP Parse error:  syntax error, unexpected ''name'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/freemaart/public_html/demo1/attendance/api/modules/v1/controllers/UsersController.php on line 179
+[27-Jul-2018 07:00:35 Etc/GMT] PHP Parse error:  syntax error, unexpected ''name'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/freemaart/public_html/demo1/attendance/api/modules/v1/controllers/UsersController.php on line 179
+[28-Jul-2018 03:57:54 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\models\Company' not found in /home/freemaart/public_html/demo1/attendance/api/modules/v1/models/Account.php on line 225
+[28-Jul-2018 16:22:38 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/freemaart/public_html/demo1/attendance/api/modules/v1/models/Attendance.php on line 74
+[28-Jul-2018 18:32:42 Etc/GMT] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/freemaart/public_html/demo1/attendance/api/modules/v1/models/Attendance.php on line 79
+[29-Jul-2018 15:16:40 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/freemaart/public_html/demo1/attendance/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php on line 123
+[29-Jul-2018 15:16:40 Etc/GMT] PHP Fatal error:  Uncaught exception 'yii\base\InvalidConfigException' with message 'The "id" configuration for the Application is required.' in /home/freemaart/public_html/demo1/attendance/vendor/yiisoft/yii2/base/Application.php:219
+Stack trace:
+#0 /home/freemaart/public_html/demo1/attendance/vendor/yiisoft/yii2/base/Application.php(201): yii\base\Application->preInit(Array)
+#1 /home/freemaart/public_html/demo1/attendance/api/web/index.php(17): yii\base\Application->__construct(Array)
+#2 {main}
+  thrown in /home/freemaart/public_html/demo1/attendance/vendor/yiisoft/yii2/base/Application.php on line 219
+[29-Jul-2018 15:16:49 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\controllers\ActiveController' not found in /home/freemaart/public_html/demo1/attendance/api/modules/v1/controllers/AttendanceController.php on line 17
+[29-Jul-2018 15:26:54 Etc/GMT] PHP Parse error:  syntax error, unexpected 'asjldhsdg' (T_STRING), expecting ']' in /home/freemaart/public_html/demo1/attendance/api/config/main.php on line 40
+[29-Jul-2018 15:27:11 Etc/GMT] PHP Parse error:  syntax error, unexpected 'asjldhsdg' (T_STRING), expecting ']' in /home/freemaart/public_html/demo1/attendance/api/config/main.php on line 40
+[29-Jul-2018 15:27:24 Etc/GMT] PHP Parse error:  syntax error, unexpected 'asjldhsdg' (T_STRING), expecting ']' in /home/freemaart/public_html/demo1/attendance/api/config/main.php on line 40
+[30-Jul-2018 02:51:45 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\controllers\Image' not found in /home/freemaart/public_html/demo1/attendance/api/modules/v1/controllers/AttendanceController.php on line 87
+[30-Jul-2018 03:19:22 Etc/GMT] PHP Parse error:  syntax error, unexpected ''GET attendance/mark-attendanc' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/freemaart/public_html/demo1/attendance/api/config/main.php on line 41
+[30-Jul-2018 03:19:26 Etc/GMT] PHP Parse error:  syntax error, unexpected ''GET attendance/mark-attendanc' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/freemaart/public_html/demo1/attendance/api/config/main.php on line 41
+[30-Jul-2018 03:34:23 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/freemaart/public_html/demo1/attendance/api/modules/v1/controllers/ReportsController.php on line 56
+[30-Jul-2018 03:45:10 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/freemaart/public_html/demo1/attendance/api/modules/v1/controllers/AttendanceController.php on line 62
+[30-Jul-2018 03:58:33 Etc/GMT] PHP Fatal error:  Call to undefined function api\modules\v1\controllers\prnt_r() in /home/freemaart/public_html/demo1/attendance/api/modules/v1/controllers/ReportsController.php on line 64
+[30-Jul-2018 04:03:30 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\controllers\Attendance' not found in /home/freemaart/public_html/demo1/attendance/api/modules/v1/controllers/ReportsController.php on line 67
+[30-Jul-2018 04:55:51 Etc/GMT] PHP Parse error:  syntax error, unexpected ''GET attendance/mark-attendanc' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/freemaart/public_html/demo1/attendance/api/config/main.php on line 41
+[30-Jul-2018 04:55:54 Etc/GMT] PHP Parse error:  syntax error, unexpected ''GET attendance/mark-attendanc' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/freemaart/public_html/demo1/attendance/api/config/main.php on line 41
+[30-Jul-2018 06:04:04 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\controllers\UploadedFiles' not found in /home/freemaart/public_html/demo1/attendance/api/modules/v1/controllers/AttendanceController.php on line 118
+[30-Jul-2018 06:13:39 Etc/GMT] PHP Fatal error:  Class 'api\modules\v1\controllers\UploadedFile' not found in /home/freemaart/public_html/demo1/attendance/api/modules/v1/controllers/AttendanceController.php on line 101
+[30-Jul-2018 06:50:23 Etc/GMT] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/freemaart/public_html/demo1/attendance/api/modules/v1/controllers/AttendanceController.php on line 127
+[04-Sep-2018 08:58:00 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/freemaart/public_html/demo1/attendance/api/modules/v1/controllers/AttendanceController.php on line 141
+[04-Sep-2018 08:58:03 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/freemaart/public_html/demo1/attendance/api/modules/v1/controllers/AttendanceController.php on line 141
+[04-Sep-2018 10:58:27 Etc/GMT] PHP Fatal error:  Call to undefined function api\modules\v1\models\CAST() in /home/freemaart/public_html/demo1/attendance/api/modules/v1/models/Attendance.php on line 105
+[04-Sep-2018 10:58:30 Etc/GMT] PHP Fatal error:  Call to undefined function api\modules\v1\models\CAST() in /home/freemaart/public_html/demo1/attendance/api/modules/v1/models/Attendance.php on line 105
+[04-Sep-2018 11:06:49 Etc/GMT] PHP Fatal error:  Call to undefined function api\modules\v1\models\TO_CHAR() in /home/freemaart/public_html/demo1/attendance/api/modules/v1/models/Attendance.php on line 105
+[04-Sep-2018 11:06:51 Etc/GMT] PHP Fatal error:  Call to undefined function api\modules\v1\models\TO_CHAR() in /home/freemaart/public_html/demo1/attendance/api/modules/v1/models/Attendance.php on line 105

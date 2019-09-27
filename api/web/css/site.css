@@ -1,0 +1,4 @@
+.img-circle {
+  object-fit: cover;
+  max-width: 50px !important;
+}
