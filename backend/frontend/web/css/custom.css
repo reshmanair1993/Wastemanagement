@@ -1,0 +1,20 @@
+.switch-field label{
+	float: left;
+}
+
+.cont1 ul{
+	margin-left: 15px;
+	list-style: unset;
+	font-size: 14px;
+}
+.cont1 ul li{
+	list-style: unset;
+	line-height: 24px;
+}
+.cont1 img{
+	object-position: center;
+	object-fit: contain;
+}
+.nav-pills .nav-link{
+	margin-right: 0 !important;
+}

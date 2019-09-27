@@ -1,0 +1,1272 @@
+@import _color
+@import _fonts
+@import _theme
+@import _buttons
+
+/* --------- General Styles ----------- */
+
+body
+  font-family: $primary_font
+
+a:hover, a:focus, a:visited
+  text-decoration: none
+
+/* ---------Logo----------- */
+.logo
+  position: relative
+  margin-top: 56px
+  display: block
+  img
+    width: 180px
+    height: auto
+    object-fit: contain
+
+/* ---------Header----------- */
+header
+  position: relative
+  z-index: 99
+
+.logo-scroll
+  display: none
+
+header.fixed
+  position: fixed
+  z-index: 99
+  top: 0
+  left: 0
+  right: 0
+  width: 100%
+  background: $white
+  transition: all 0.3s ease-in
+  box-shadow: 0 9px 26px 0 rgba(0, 73, 133, 0.25)
+  .logo
+    margin-top: 10px
+    margin-bottom: 13px
+  .form
+    display: none
+  #toggle
+    margin-top: 30px
+  .kit-hold
+    padding-top: 17px
+    h5
+      display: none
+  .switch-field
+    margin-top: 22px
+    border: 1px solid #0F89EC
+  .logo
+    img
+      width: 108px
+  #toggle
+    div
+      background: #0F89EC
+  .logo-scroll
+    display: block
+  .header-logo
+    display: none
+
+#toggle
+  width: 35px
+  height: 30px
+  margin-left: auto
+  margin-top: 80px
+  cursor: pointer
+  z-index: 999
+  position: relative
+
+#toggle div
+  width: 100%
+  height: 3px
+  background: white
+  margin: 7px auto
+  transition: all 0.1s
+  backface-visibility: hidden
+
+#toggle.on .one
+  transform: rotate(45deg) translate(9px, 5px)
+
+#toggle.on .two
+  opacity: 0
+
+#toggle.on .three
+  transform: rotate(-45deg) translate(8px, -6px)
+
+#menu
+  position: absolute
+  background: $white
+  color: $black
+  border: 1px solid $white
+  width: 100%
+  height: auto
+  padding: 10px
+  border-radius: 3px
+  text-align: center
+  margin: auto
+  display: none
+  z-index: 99
+  box-shadow: 0 2px 13px 0 rgba(0,0,0,0.44)
+  .row
+    margin-right: 0
+    margin-left: 0
+  ul.br-0
+    border-right: 0
+  ul
+    margin-top: 125px
+    margin-bottom: 90px
+    border-right: 1px solid #979797
+    li
+      margin-bottom: 35px
+  a
+    color: $black
+    text-transform: uppercase
+    font-family: $primary_font
+    font-weight: 700
+    font-size: 14px
+    letter-spacing: 1.6px
+  a:hover, a:focus, a:visited
+    color: $black
+
+.on
+  position: absolute
+  right: -73px
+  div
+    background: $black !important
+
+.form
+  position: absolute
+  top: 15px
+  right: 14px
+
+.switch-field
+  width: fit-content
+  margin-left: auto
+  background: $white
+  margin-top: 80px
+  border-radius: 34px
+  ul
+    margin-bottom: 0
+  li
+    display: inline-block
+    background: white
+    padding: 4px 18px
+    margin: 0
+    // border-radius: 25px
+    a
+      color: $black
+      font-family: $primary_font
+      font-size: 13px
+  li:first-child
+    border-top-left-radius: 25px
+    border-bottom-left-radius: 25px
+  li:last-child
+    border-top-right-radius: 25px
+    border-bottom-right-radius: 25px
+  li.active
+    background: $blue
+    a
+      color: $white
+
+/* ---------Banner styles----------- */
+.banner
+  position: relative
+  height: 945px
+  margin-top: -164px
+  background: rgba(46, 101, 163, 0.6)
+  h4
+    color: $white
+    font-size: 20px
+    letter-spacing: 2.01px
+    font-weight: 200
+  img.bg-img
+    width: 100%
+    height: 100%
+    position: absolute
+    object-fit: cover
+    z-index: -1
+  .container
+    padding-top: 300px
+    .box
+      margin-top: 184px
+
+.kit-hold
+  display: block
+  width: 120px
+  text-align: center
+  margin: auto
+  margin-right: 0
+  padding-top: 64px
+  h5
+    color: white
+    margin-top: 10px
+    font-size: 13px
+    line-height: 16px
+
+.page-banner
+  position: relative
+  height: 100vh
+  margin-top: -167px
+  background: rgba(46, 101, 163, 0.6)
+  h1
+    font-size: 54px
+  h4
+    color: $white
+    font-size: 20px
+    letter-spacing: 2.01px
+    font-weight: 200
+  img.bg-img
+    width: 100%
+    height: 100%
+    position: absolute
+    object-fit: cover
+    z-index: -1
+  .container
+    padding-top: 275px
+    .box
+      margin-top: 184px
+
+/* ---------Banner box styles----------- */
+.box
+  background: $white
+  border-radius: 20px
+  box-shadow: $shadow
+  padding: 45px
+  margin: 20px
+  display: block
+  height: 350px
+  h4
+    color: $black
+    font-family: $primary_font
+    font-weight: 500
+    line-height: 24px
+    margin-bottom: 15px
+    font-size: 16px
+  p
+    text-align: justify
+    color: $p_grey
+  img
+    width: auto
+    height: 100px
+    object-fit: contain
+    margin-bottom: 30px
+
+/* ---------About section styles----------- */
+section.about-section
+  padding-top: 70px
+  position: relative
+  height: 700px
+  overflow: hidden
+  img
+    position: absolute
+    object-fit: cover
+    width: 100%
+    height: 100%
+    top: 0
+    z-index: -1
+  h4
+    color: $p_grey
+    font-size: 18px
+  h3
+    font-weight: 700
+    color: $black
+    font-size: 25px
+    margin-bottom: 45px
+
+/* ---------Blue banner content section styles----------- */
+.blue-banner
+  background: $blue
+  padding: 50px 0
+  p
+    color: $white
+
+/* ---------content section styles----------- */
+.content-wrapper
+  padding: 100px 0
+  h3
+    margin-bottom: 30px
+  .box
+    padding: 30px
+    margin: 30px 0
+
+.cont1
+  padding: 50px 0
+  img
+    height: 300px
+    width: 100%
+    object-fit: cover
+  p
+    margin-top: 30px
+    color: $p_grey
+    line-height: 23px
+    font-size: 14px
+    text-align: justify
+  h5
+    text-transform: uppercase
+    font-weight: 700
+    color: $black
+    font-size: 25px
+    margin-top: 30px
+    margin-bottom: 30px
+
+/* ---------Video section styles----------- */
+.video-wrapper
+  position: relative
+  background: $bg_gradient
+  padding: 100px 0
+  overflow: hidden
+  button
+    background: transparent
+    outline: 0
+    box-shadow: none
+    border: 0
+  h4
+    margin-bottom: 20px
+  img
+    cursor: pointer
+  .bg-img
+    position: absolute
+    width: 100%
+    height: 100%
+    object-fit: cover
+    top: 0
+    opacity: 0.4
+  h4,h3
+    color: $white
+
+/* ---------Round box section styles----------- */
+.round-menu
+  padding: 100px 0
+  a
+    color: $black
+    font-family: $primary_font
+    font-size: 20px
+    line-height: 24px
+    margin-top: 24px
+    display: inline-block
+    font-weight: 500
+.round-box
+  background: $white
+  box-shadow: $shadow
+  text-align: center
+  border-radius: 50%
+  display: block
+  padding: 66px
+  width: 250px
+  height: 250px
+  margin: auto
+  img
+    height: auto
+    width: 100px
+    object-fit: cover
+    margin: auto
+
+/* ---------News and Events----------- */
+.news-cont1
+  padding: 50px 0
+.img-box
+  overflow: hidden
+  border-radius: 10px
+  height: 300px
+  position: relative
+  margin-bottom: 20px
+  padding: 30px
+  background-color: rgba(0,0,0,0.38)
+  h4
+    text-transform: capitalize
+    margin-bottom: 10px
+    font-weight: 600
+    letter-spacing: -0.01px
+    line-height: 35px
+    font-size: 25px
+    margin-top: 100px
+  p
+    margin-top: 10px
+    height: 100px
+    overflow: hidden
+  p,h4
+    font-family: $primary_font
+    color: $white
+  img
+    position: absolute
+    top: 0
+    left: 0
+    margin: auto
+    width: 100%
+    height: 100%
+    z-index: -1
+
+.section-head
+  color: $black
+  font-family: $primary_font
+  font-size: 25px
+  font-weight: 600
+  margin-bottom: 30px
+
+.img-holder
+  overflow: hidden
+  position: relative
+  border-radius: 5px
+  height: 100%
+  width: 100%
+  text-align: center
+  padding: 20px
+  display: table
+  .text
+    vertical-align: middle
+    display: table-cell
+  h4,p
+    color: $white
+    font-family: $primary_font
+    line-height: 22px
+  h4
+    font-weight: 700
+    font-size: 20px
+    text-transform: capitalize
+  p
+    font-size: 15px
+    margin-bottom: 0
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
+    position: absolute
+    margin: auto
+    z-index: -1
+    right: 0
+    left: 0
+    top: 0
+
+.publish-date
+  position: absolute
+  width: 65px
+  height: 50px
+  background: $blue
+  color: $white
+  line-height: 19px
+  padding: 5px 20px
+  left: 0
+  top: 1px
+  border-bottom-right-radius: 10px
+  font-family: $primary_font
+  font-size: 14px
+  span
+    display: block
+    font-weight: 600
+    font-size: 22px
+
+.event-box
+  box-shadow: 0 6px 26px 0 rgba(0,73,133,0.25)
+  border-radius: 10px
+  padding: 5px
+  margin-bottom: 20px
+
+.event-desc
+  padding: 25px 0
+  p
+    color: $black
+    font-family: $primary_font
+    font-weight: 600
+  h4, a
+    font-family: $primary_font
+    font-size: 20px
+    color: $black
+    margin-bottom: 10px
+    font-weight: 700
+    text-transform: capitalize
+  ul
+    li:first-child
+      width: 100px
+    li
+      display: inline-block
+
+.news-cont2
+  h5
+    text-transform: uppercase
+    margin-top: 78px
+    margin-bottom: 20px
+  .bt-primary
+    padding: 12px 65px
+
+
+/* ---------Monitoring system----------- */
+.content-box
+  padding: 50px 100px
+  background: $white
+  box-shadow: 0 6px 26px 0 rgba(0,73,133,0.25)
+  border-radius: 10px
+  margin-top: -100px
+  margin-bottom: 80px
+  position: relative
+  z-index: 9
+  p
+    text-align: justify
+    margin-top: 20px
+
+.cont-img
+  overflow: hidden
+  img
+    width: 100%
+    height: 380px
+    object-fit: cover
+
+.cont-text
+  background: $blue
+  padding: 40px 70px
+  border-radius: 10px
+  margin-left: -100px
+  margin-top: 30px
+  p
+    text-align: justify
+  h3,h4,p
+    color: $white
+
+/* ---------Centralized facilities styles----------- */
+.centralized-content
+  img
+    width: 200px
+    height: 200px
+    object-fit: contain
+  .row
+    margin-top: 40px
+    margin-bottom: 80px
+
+/* ---------Activities styles----------- */
+.activity-content
+  padding: 50px 0
+  .box
+    margin: 0
+    box-shadow: none
+    padding: 30px
+    height: 340px
+  .box:hover, .box.active
+    box-shadow: 0 6px 26px -5px rgba(0,73,133,0.25)
+.activity-cont2
+  text-align: center
+  position: relative
+  ul
+    padding: 40px 150px
+    text-align: left
+    li
+      position: relative
+      padding-left: 35px
+      margin-bottom: 40px
+    li::before
+      content: ""
+      background-image: url("../img/list-style.png")
+      background-size: 20px
+      display: inline-block
+      position: absolute
+      left: 0
+      width: 20px
+      height: 20px
+    strong
+      font-size: 16px
+    p
+      margin-bottom: 10px
+      font-size: 13px
+      letter-spacing: 0.7px
+      line-height: 20px
+      text-align: left
+  .container
+    padding: 50px 0
+  h4,h3
+    text-transform: capitalize
+  h3,h4,p
+    color: $white
+  img
+    position: absolute
+    height: 100%
+    width: 100%
+    object-fit: cover
+    z-index: -1
+    left: 0
+    top: 0
+
+.project-list
+  padding: 50px 0
+  ul
+    list-style: none outside none
+    padding-left: 0
+    margin-bottom: 0
+  li
+    display: block
+    float: left
+    margin-right: 6px
+    cursor: pointer
+  img
+    display: block
+    height: 230px
+    max-width: 100%
+    object-fit: contain
+  .bt-primary
+    padding: 12px 30px
+    font-size: 14px
+  h3,p
+    margin-bottom: 30px
+  .overflow-hidden
+    overflow: hidden
+
+.hav-padd
+  padding: 40px 150px
+
+.styled-list
+  li
+    position: relative
+    padding-left: 35px
+    margin-bottom: 40px
+  li::before
+    content: ""
+    background-image: url("../img/list-style.png")
+    background-size: 20px
+    display: inline-block
+    position: absolute
+    left: 0
+    width: 20px
+    height: 20px
+  strong
+    font-size: 16px
+  p
+    margin-bottom: 10px
+    font-size: 13px
+    letter-spacing: 0.7px
+    line-height: 20px
+
+/* ---------Residential styles----------- */
+.res-cont1
+  padding: 50px 0
+  .form-control
+    border-radius: 17.5px
+    border: 1px solid #8CA4A9
+  .custom-select-group
+    position: relative
+    img
+      position: absolute
+      right: 11px
+      top: 11px
+  select.form-control
+    background: $blue
+    color: $white
+    border: 0
+    cursor: pointer
+    box-shadow: 0 9px 26px 0 rgba(0, 73, 133, 0.25)
+    -webkit-appearance: none
+    -moz-appearance: none
+  button
+    border: 0
+    outline: 0
+    background: $blue !important
+    text-transform: capitalize
+    font-size: 14px !important
+    padding: 7px 36px !important
+  .direction-map
+    display: block
+    text-transform: capitalize
+    img
+      width: 100%
+      height: 50px
+      object-fit: contain
+      margin-bottom: 14px
+  .event-desc
+    p
+      font-weight: 400
+      img
+        width: 15px
+        margin-right: 10px
+  .section-head
+    text-transform: capitalize
+  .img-holder
+    padding: 10px
+    height: 210px
+    img
+      position: relative
+      border-radius: 10px
+
+.map-link
+  display: table
+  height: 210px
+  .direction-map
+    display: table-cell
+    vertical-align: middle
+    color: $black
+    font-family: $primary_font
+    font-size: 14px
+    font-weight: 600
+
+/* ---------Department page styles----------- */
+.dep-categories,.department-content
+  h4
+    font-size: 16px
+    text-transform: capitalize
+    color: $p_grey
+  h3
+    font-size: 25px
+  p
+    text-align: justify
+    color: $p_grey
+    font-size: 14px
+    line-height: 23px
+    margin-top: 20px
+
+.department-content
+  position: relative
+  padding: 20px 0
+  height: auto
+.blue-bg
+  position: absolute
+  top: 30px
+  left: 0
+  width: 70%
+  height: 600px
+  background: #BAE2F4
+.bg-white
+  padding: 10px 15px 83px 177px
+.left-img
+  img
+    margin-top: 40px
+    margin-left: 157px
+    z-index: 9
+    position: relative
+    height: 290px
+    object-fit: cover
+    width: auto
+.tile-img-holder
+  position: relative
+  right: 0
+  left: auto
+  margin-left: auto
+  top: -63px
+  .img1
+    position: absolute
+    right: 220px
+    width: 320px
+    height: 310px
+    object-fit: cover
+  .img2
+    position: absolute
+    right: 0
+    top: -41px
+    height: 310px
+    width: auto
+    object-fit: cover
+
+.dep-categories
+  padding: 50px 0
+  .pright
+    padding-right: 50px
+  img
+    width: 100%
+    height: 250px
+    object-fit: cover
+    margin-top: 90px
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+  background: $blue
+  box-shadow: 0 6px 17px 0 rgba(0,73,133,0.25)
+  border-radius: 17.5px
+
+.nav-pills
+  .nav-link
+    padding: 7px 20px
+    font-size: 14px
+    color: #B6B6B6
+    text-align: center
+    margin-right: 40px
+
+.tab-content
+  padding-top: 30px
+
+/* ---------Genral content styles----------- */
+.content
+  text-align: left
+  font-size: 14px
+  .mtop
+    margin-top: -230px
+  ul
+    padding-left: 15px
+    margin-top: 10px
+    li
+      list-style: disc
+      text-align: left
+      margin-bottom: 7px
+  .content-box
+    p
+      color: $p_grey
+      font-size: 14px
+      font-family: $primary_font
+      line-height: 23px
+  h1,h2,h5,h6,h4,h5
+    color: $black
+    font-family: $primary_font
+    font-weight: 700
+    line-height: 16px
+    text-transform: none
+    text-align: left
+    font-size: 14px
+    margin-bottom: 20px
+
+/* ---------Contact page styles----------- */
+.contact-banner
+  height: 100%
+  padding-bottom: 100px
+.contact-holder
+  background: $white
+  padding: 80px
+  button
+    border: 0
+    outline: 0
+    background: #00B6FD !important
+    text-transform: uppercase
+    font-size: 14px !important
+    padding: 7px 30px !important
+  .form-control
+    border-radius: 0
+    font-size: 14px
+    font-family: $primary_font
+    line-height: 19px
+  .form-control:focus
+    border-radius: 0
+    outline: 0
+    box-shadow: none
+  input::placeholder
+    color: #9B9B9B
+  ul
+    padding-left: 35px
+    position: relative
+    margin-bottom: 45px
+    li
+      color: $black
+      font-family: $primary_font
+      font-size: 12px
+      letter-spacing: 0.74px
+    li:first-child
+      font-size: 16px
+      font-weight: 700
+      letter-spacing: 0.74px
+      line-height: 24px
+      text-transform: uppercase
+    img
+      position: absolute
+      left: 0
+      width: 20px
+      height: auto
+      object-fit: contain
+
+#map
+  height: 600px
+  width: 100%
+
+/* ---------About page styles----------- */
+.about-content
+  img
+    height: 480px
+    width: 100%
+    object-fit: cover
+
+.service-box
+  box-shadow: 0 6px 27px -6px rgba(0,73,133,0.25)
+  background-color: $white
+  padding: 10px 0
+  width: 650px
+  position: relative
+  z-index: 9
+  margin-top: 66px
+  ul
+    margin-bottom: 0
+  li:last-child
+    border-right: 0
+  li
+    width: calc(100% / 4 - 10px)
+    display: inline-block
+    text-align: center
+    border-right: 1px solid rgba(158,167,174,0.25)
+    p
+      text-align: center
+      margin-top: 10px
+      margin-bottom: 0
+      font-size: 12px
+      text-transform: uppercase
+  img
+    width: 30px
+    height: 40px
+    object-fit: contain
+
+.featured-content
+  background-color: rgba(15,137,236,0.74)
+  padding: 50px 0
+  position: relative
+  .profile
+    img
+      margin: 12px
+      z-index: 9
+      position: relative
+      width: 230px
+      height: 230px
+      object-fit: contain
+  .bg-img
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    z-index: -1
+    margin: 0
+  h3,h4,p
+    color: white
+
+.prof-bg
+  width: 100px
+  height: 200px
+  background: #29BCFF
+  position: absolute
+
+/* ---------partners section styles----------- */
+.partners
+  padding: 50px 0
+  img
+    width: auto
+    height: 60px
+    margin-top: 80px
+    object-fit: contain
+
+
+/* ---------Faq styles----------- */
+.faq-content
+  padding: 50px 0
+
+.card
+  margin-bottom: 30px
+  box-shadow: 0 6px 26px 0 rgba(0,73,133,0.25)
+  border-radius: 8px
+  background-color: #FFFFFF
+  border: 0
+
+.card-header
+  border: 0
+  background: $white
+  border-radius: 8px !important
+  padding: 25px
+
+.card-link
+  color: $black
+  font-family: $primary_font
+  font-size: 20px
+  font-weight: 600
+  line-height: 29px
+
+.card-link:hover, .card-link:visited, .card-link:focus
+  color: $black
+
+.panel-control
+  float: right
+  margin-top: 12px
+
+.card-header.active
+  .card-link
+    color: $blue
+
+.open
+  display: none
+
+.card-header.active
+  .open
+    display: block
+  .closed
+    display: none
+
+.form-holder.mtop
+  margin-top: -130px
+
+.form-holder
+  box-shadow: 0 6px 26px 0 rgba(0,73,133,0.25)
+  background: linear-gradient(203.7deg, #00B9FF 0%, #0077FF 100%)
+  border-radius: 10px
+  padding: 40px
+  position: relative
+  button
+    box-shadow: 0 6px 26px 0 rgba(0,73,133,0.25)
+    background-color: #FFFFFF
+    border-radius: 10px
+    outline: 0
+    border: 0
+    text-transform: uppercase
+    color: $blue
+    font-family: $primary_font
+    font-size: 14px
+    font-weight: 500
+    padding: 10px 50px
+    position: absolute
+    margin: auto
+    left: 0
+    right: 0
+    bottom: -17px
+    width: 150px
+    cursor: pointer
+  h4
+    margin-bottom: 50px
+  h4,.form-control
+    color: $white
+    font-size: 14px
+    font-family: $primary_font
+  .form-control
+    background: transparent
+    border: 0
+    border-bottom: 1px solid $white
+    border-radius: 0
+    padding-left: 0
+  .form-control:focus
+    outline: 0
+    box-shadow: none
+  input::placeholder, textarea::placeholder
+    color: $white
+
+/* ---------Resendents association styles----------- */
+.page-banner.banner-content
+  height: 100%
+  img.bg-img
+    height: 800px
+.detail-holder
+  background: $white
+  text-align: left
+  border-radius: 10px
+  box-shadow: 0 6px 26px 0 rgba(0,73,133,0.25)
+  #map
+    height: 260px
+  table
+    margin: 30px 0
+    td
+      color: $black
+      border-top: 0
+      border-bottom: 0.5px solid #dee2e6
+      font-family: $primary_font
+      font-size: 14px
+      font-weight: 500
+      line-height: 16px
+      text-align: left
+    td:last-child
+      text-align: right
+  button, .res-cont1 button
+    border: 0
+    outline: 0
+    background: $blue !important
+    text-transform: capitalize
+    font-size: 14px !important
+    padding: 7px 45px !important
+
+.banner-content.page-banner
+  .container
+    padding-top: 197px
+
+.detail-head
+  background: #00B0FF
+  padding: 30px 30px 10px
+  border-radius: 10px 10px 0 0
+  .call
+    color: $white
+    font-size: 18px
+    font-weight: bold
+    font-family: $sec_font
+    letter-spacing: 1.8px
+    line-height: 23px
+    margin: 7px 0
+    display: block
+    img
+      height: 20px
+      width: auto
+      margin-right: 10px
+  h3,p,span
+    color: $white
+  h3
+    font-size: 28px
+    margin-bottom: 0
+  span
+    font-size: 14px
+
+.bt-transparent
+  border: 1px solid $white
+  color: $white
+  width: 120px
+  height: 50px
+  text-align: center
+  display: block
+  padding-top: 10px
+  font-size: 18px
+  margin-right: 20px
+  margin-top: 23px
+  margin-left: auto
+  img
+    margin-right: 10px
+    height: 18px
+    width: auto
+    object-fit: contain
+    margin-top: -2px
+
+.bt-transparent:hover, .bt-transparent:visited, .bt-transparent:focus
+  color: $white
+
+.detail-content
+  padding: 30px
+  .form-control
+    border-radius: 17.5px
+    border: 1px solid #8CA4A9
+  p
+    color: $p_grey
+    font-size: 14px
+    font-weight: 600
+    letter-spacing: 1px
+    margin-bottom: 20px
+  h3
+    color: $black
+    font-size: 18px
+    font-weight: 700
+    line-height: 23px
+    margin-bottom: 15px
+    span
+      color: #737373
+
+.contact-box
+  box-shadow: 0 2px 14px 0 rgba(0,73,133,0.19)
+  overflow: hidden
+  margin-bottom: 30px
+  ul
+    margin-top: 20px
+  li:last-child, ul
+    margin-bottom: 0
+  li
+    font-family: $primary_font
+    font-size: 18px
+    font-weight: 700
+    color: $black
+    letter-spacing: 1.43px
+    line-height: 24px
+    margin-bottom: 7px
+    text-align: left
+    img
+      height: 16px
+      width: auto
+      margin-right: 10px
+      object-fit: contain
+    a
+      font-family: $sec_font
+      font-size: 14px
+      line-height: 18px
+      letter-spacing: 1px
+      font-weight: bold
+      color: #737373
+  img.profile-pic
+    width: 100%
+    height: 100%
+    object-fit: cover
+  h4
+    color: #737373
+    font-size: 13px
+    letter-spacing: 1px
+    line-height: 16px
+    font-weight: 600
+    margin-bottom: 10px
+    text-align: left
+
+.officials
+  padding: 14px 20px
+
+
+/* ---------Breadcrumb----------- */
+.breadcrumb
+  background: transparent
+  margin-bottom: 0
+  padding: 0
+  a
+    color: $black
+    font-size: 14px
+    font-family: $primary_font
+    font-weight: 700
+    letter-spacing: 1px
+
+.breadcrumb-item+.breadcrumb-item::before
+  color: $black
+  padding-right: 3px
+
+.breadcrumb-item+.breadcrumb-item
+  padding-left: 3px
+
+.breadcrumb-item.active
+  color: $white
+
+/* ---------Footer styles----------- */
+footer
+  background-image: url("../img/footer-bg.png")
+  color: $white
+  padding: 116px 0
+  background-repeat: no-repeat
+  background-size: cover
+  input::placeholder
+    color: $white !important
+  .form-control
+    background: transparent
+    border: 1px solid $white
+    border-radius: 30px
+    color: $white
+    padding: 20px 17px
+  .form-control:focus
+    background: transparent
+    border-color: $white
+    box-shadow: none
+    color: $white
+  .form-group
+    position: relative
+    button
+      width: 50px
+      height: 50px
+      border-radius: 50%
+      border: 0
+      position: absolute
+      right: 0
+      top: -4px
+      background: $white
+      cursor: pointer
+      img
+        width: 30px
+        height: auto
+        object-fit: contain
+  .pt-10
+    padding-top: 160px
+  p
+    font-size: 14px
+    line-height: 16px
+    letter-spacing: 2px
+    margin-bottom: 30px
+    margin-top: 30px
+  .pr-30
+    padding-right: 178px
+  h3
+    color: $white
+    word-wrap: break-word
+    text-transform: uppercase
+    margin: 24px 0
+  ul
+    li
+      margin-bottom: 25px
+    a
+      color: $white
+      text-transform: uppercase
+      font-family: $primary_font
+      letter-spacing: 1.11px
+      font-weight: 500
+      font-size: 14px
+    a:hover, a:visited, a:focus
+      color: $white
+
+.tag-line
+  background: $foot_black
+  padding: 20px 0
+  p
+    color: #9A9A9B
+    margin-bottom: 0
+
+.footer-logo
+  display: block
+  img
+    width: 160px
+    height: auto
+    object-fit: contain
+
+.contact-foot
+  position: relative
+  margin-top: -100px
